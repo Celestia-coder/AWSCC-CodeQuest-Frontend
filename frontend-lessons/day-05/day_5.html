@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Day 5</title>
+</head>
+<body>
+    <h1>DAY 5</h1>
+    <ul>
+        <li>The content area: Width and height of the element's content.</li>
+        <li>Padding: Space between the content and the border. Padding space inside the content area</li>
+        <li>Border: A visible border around the padding.</li>
+        <li>Margin: Space between the border and surrounding elements. Margin outside the border</li>
+    </ul>
+
+    <dl>
+        <dt><b>Static Positioning</b></dt>
+            <dd>
+                By default, ALL elements have a static position. 
+                Elements with a static position are placed in the 
+                normal flow of the document. You don't usually need to 
+                set position: static because it's the default behavior.
+            </dd>
+        
+        <dt><b>Relative Positioning</b></dt>
+            <dd>
+                When you set an element's position to relative, 
+                you can use properties like top, right, bottom, 
+                and left to move the element from its normal position. 
+                The element will still take up space in the normal flow, 
+                but you can shift it relative to that normal position.
+            </dd>        
+        
+        <dt><b>Absolute Positioning</b></dt>
+            <dd>
+                Elements with an absolute position are removed from 
+                the normal flow, and they're positioned relative to 
+                the nearest positioned ancestor. You can use properties 
+                like top, right, bottom, and left to precisely 
+                place the element.
+            </dd>
+        
+        <dt><b>Sticky Positioning</b></dt>
+            <dd>
+                When you set an element's position to sticky,
+                 it starts off behaving like relative. It remains 
+                 in the normal flow of the document until you scroll 
+                 to a certain point. Once you scroll past a 
+                 specified offset (e.g., top: 50px), the element 
+                 becomes "sticky" and sticks to that position 
+                 on the screen. <br>
+
+                 As you scroll further, it will "unstick" 
+                 and continue scrolling in the normal flow.
+                </dd>    
+    </dl>
+
+    <br><hr><br> <!--------------------------------------------------------------------------------------->
+
+    <h2>APPLICATION</h2>
+
+    <div class="box">
+        <p>Ako'y tahimik lang sa umpisa, kahit di moko pilitin</p>
+    </div>
+
+    <div id="static">
+        <p>
+            Static <br>
+            Ako'y tahimik lang sa umpisa, kahit di moko pilitin
+        </p>    
+    </div>
+
+    <div id="relative">
+        <p>
+            Relative <br>
+            Ako'y tahimik lang sa umpisa, kahit di moko pilitin
+        </p>
+    </div>
+
+    <div id="absolute">
+        <p>
+            Absolute <br>
+            Ako'y tahimik lang sa umpisa, kahit di moko pilitin
+        </p>
+    </div>
+
+    <div id="sticky">
+        <p>
+            Sticky <br>
+            Ako'y tahimik lang sa umpisa, kahit di moko pilitin
+        </p>
+    </div>
+</body>
+</html>
