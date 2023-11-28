@@ -26,7 +26,7 @@ p {
     text-align: center;
     font-variant: normal;
     text-transform: capitalize;
-    color: #EFB495;
+    color: #daa081;
     text-decoration: underline;
     line-height: 2;
     letter-spacing: 2px;
@@ -34,5 +34,5 @@ p {
 }
 
 body {
-    background: linear-gradient(to right,#EF9595, #edf0bb);
+    background: linear-gradient(to right,#EF9595, #e9eda8);
 }
