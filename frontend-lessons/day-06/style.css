@@ -1,0 +1,38 @@
+.container {
+    background-color: #EFB495;
+    padding: 10px;
+}
+
+.box {
+    background-color: #f6f9bb;
+    padding: 5px;
+    margin: 12px;
+    border: 5px dashed #EF9595;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #EF9595;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 4px;
+    font-style: italic;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    font-variant: normal;
+    text-transform: capitalize;
+    color: #EFB495;
+    text-decoration: underline;
+    line-height: 2;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+body {
+    background: linear-gradient(to right,#EF9595, #edf0bb);
+}
