@@ -1,4 +1,4 @@
-.grid-container {
+/*.grid-container {
     height: 500px;
     width: 500px;
     border: 5px solid rgb(0, 0, 0);
@@ -13,4 +13,34 @@
 .grid-item {
     border: 3px solid rgb(248, 82, 82);
     background-color: pink;
+}*/
+
+.grid-container {
+    display: grid;
+    border: 8px solid black;
+    grid-template-rows: repeat(4, 100px);
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    /* justify-items: end;
+    align-items: center; */
 }
+
+.grid-item {
+    background-color: #ff7575;
+    color: white;
+    border: 5px solid #cd2a40;
+    text-align: center;
+}
+
+/* #item1 {
+    grid-row: 1/3;
+    grid-column: 1/7;
+}
+
+#item2 {
+    grid-area: 2/5/4/6;
+    z-index: 1;
+}
+
+#item3 {
+    grid-area: 3/1/7/7;
+} */
